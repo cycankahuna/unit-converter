@@ -24,6 +24,6 @@ conversionBtn.addEventListener("click", function convertUnit() {
   ).toFixed(3)} pounds | ${inputValue.value} pounds =${(
     inputValue.value * 0.453592
   ).toFixed(3)} kilos `;
-});
 
-//AFTER RETURN WE HAVE TO CONVERT THE VALUES
+  inputValue.value = "";
+});
